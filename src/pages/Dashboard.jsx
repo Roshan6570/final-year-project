@@ -2,8 +2,8 @@ import { useEffect,  } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import DashboardLayout from '../DashBoardCompo/DashboardLayout';
-import StatsCards from '../DashboardCompo/StatsCards';
-import RecentIncidents from '../DashboardCompo/RecentIncidents';
+import StatsCards from '../DashBoardCompo/StatsCards';
+import RecentIncidents from '../DashBoardCompo/RecentIncidents';
 import { useRef } from 'react';
 
 const Dashboard = () => {
