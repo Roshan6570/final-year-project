@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useEffect,  } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import DashboardLayout from '../DashboardCompo/DashboardLayout';
+import DashboardLayout from '../DashBoardCompo/DashboardLayout';
 import StatsCards from '../DashboardCompo/StatsCards';
 import RecentIncidents from '../DashboardCompo/RecentIncidents';
 import { useRef } from 'react';
